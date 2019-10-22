@@ -20,7 +20,7 @@ export class SpotifyService {
     // Defino Headers que API de Spotify Necesita
     const headers = new HttpHeaders({
       Authorization:
-        "Bearer BQBqEuW5Il5X1n-9rF6ft6MvECVhvz56DU7NpKhyR5tFqhKh-4TUiglU6W9D1Gzzf1336v51-wfC5oKEI0nMaWF5GUpD6do0Z71ZCKJLunToOO6qYODBvpzFTNe9s2KAF7qjAv7H_RGKZOYHvp1nPIDwAtVsM4d56uj5R1raSPuvsB2D3rVTU_hnbJy--15nFzh8Er62jqn8VLjoQDn8QF_e-0-UtvG4wCY-i6bu7SgWlFTVYKyNJ9WTZ10-UL3g-jYpb9IoVl4v5aGnxg"
+        "Bearer BQA4g7BDeZYCLHDNaIsW6mIoolYbJ9Yd-QnrVSZ5IsxNh3UYYh3ZHzi5G_K1A5xJn-HW0IwYqcSgh9rmCdGATL9KdizbLQZ31Kimp55XqwBOiIjoYiQvF2_e3lZ42tln1sNiuKylfucpTfl2IepvFyvkZg6lPxUVwsVHnbdo4j7sCa14NXlSGl8BEOxTqPX7o_9GXVCBYvfHKjlD4-KsUrt4sT33sihm206EQDKf15bIUTdwt9p1jO6gjwdvfFT31GgO4IwRLpLEY_cfTQ"
     });
 
     return this.http.get(url, { headers });
