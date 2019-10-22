@@ -1,0 +1,32 @@
+<div class="profile-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1-12 engloba-profile">
+        <div class="header-profile">
+          <div class="image-profile">
+            <img src="{{profile.images[0].url}}" class="img-profile">
+          </div>
+          <div class="content-profile">
+            <h2> {{ profile.display_name}}</h2>
+            <div class="discription-profile">
+              {{ profile.display_name}}
+              <span class="pipe">|</span>
+              {{ profile.followers.total}} followers
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 body-playlists">
+          <a [routerLink]="['/profile/playlist']" class=" col-lg-3 a-item-playlist"
+            *ngFor="let item of playlists.items ; let i = index">
+            <div class="item-playlist">
+              <span class="track-playlist"> {{ item.tracks.total}} músicas </span>
+              <span class="title-playlist"> {{ item.name}} </span>
+              <img src="{{item.images[0].url}}" class="img-album img-responsive">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

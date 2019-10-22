@@ -1,0 +1,107 @@
+.playlist-section {
+    width: 25%;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.tracks-section {
+    width: 50%;
+    background-color: #525659;
+    color: white;
+}
+
+.search-page-sections {
+    display: flex;
+}
+
+.context-playlist {
+    padding-top: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+span.title-playlist {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+span.track-playlist {
+    font-size: 12px;
+}
+
+.profile-section {
+    background-color:#525659;
+    width: 25%;
+    color: white;
+}
+
+span.title-name {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+span.tag-text {
+    display: inline-flex;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-top: 7px;
+}
+
+span.pipe {
+    display: inline-flex;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.track-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.left-track {
+    width: 80%;
+}
+
+span.snipet-green {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.left-track h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+span.artist-track {
+    font-size: 12px;
+}
+
+.search-bar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+    padding-bottom: 50px;
+}
+
+input.search-bar {
+    background-color: #464646;
+    border: none;
+    width: 60%;
+    color: green;
+    padding: 10px 30px;
+}

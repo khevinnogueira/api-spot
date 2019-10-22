@@ -1,0 +1,48 @@
+.home-page {
+    height: 100vh;
+    background-color: #3a3939;
+    display: flex;
+    align-items: center;
+     border-right: solid 50px #1ed760;
+}
+
+.d-1 {
+    color: white;
+    padding-left: 10vw;
+    max-width: 300px;
+}
+
+a.btn-green {
+    background-color: #1ed760;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    width: 140px;
+    font-size: 14px;
+    text-align: center;
+    transition: 250ms ease-in-out;
+}
+
+a.btn-green:hover {
+    transition: 250ms ease-in-out;
+    background: white;
+    color: #1ed760;
+}
+
+.logo-page {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 70px;
+}
+
+img.base-fundo {
+    height: 80vh;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    opacity: 0.2;
+}
