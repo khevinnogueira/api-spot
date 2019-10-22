@@ -1,6 +1,6 @@
 Angular 7 + API Spotfy + Angular Material
 
-*Instruções:
+*Instruções:<br>
 *Clone o repositório
 *Acesse o Console do Spotfy Developers
 *Gere uma Autenticação
